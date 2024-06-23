@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // Reference :- https://medium.com/@matteoluigitommasi/setup-the-vscode-debugger-for-a-nodejs-typescript-project-a9c0a5042687
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Node.js",
+            "skipFiles": [
+              "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/server.ts", // Adjust path as necessary
+            "preLaunchTask": "tsc: watch - tsconfig.json", // Compile TypeScript
+            "outFiles": [
+              "${workspaceFolder}/dist/**/*.js" // Adjust path as necessary
+            ],
+            "envFile": "${workspaceFolder}/.env"
+          }
+    ]
+}

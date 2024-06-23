@@ -1,0 +1,38 @@
+{
+  "name": "bitespeed-identity-reconciliation",
+  "version": "1.0.0",
+  "description": "BiteSpeed NodeJS TS Asssignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhomoy-roy-choudhury/BiteSpeed-Identity-Reconciliation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhomoy-roy-choudhury/BiteSpeed-Identity-Reconciliation/issues"
+  },
+  "homepage": "https://github.com/subhomoy-roy-choudhury/BiteSpeed-Identity-Reconciliation#readme",
+  "dependencies": {
+    "@types/mongoose-sequence": "^3.0.11",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.4.1",
+    "mongoose-auto-increment": "^3.0.1",
+    "mongoose-id-autoincrement": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/mongoose-auto-increment": "^5.0.38",
+    "@types/node": "^20.14.2",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
